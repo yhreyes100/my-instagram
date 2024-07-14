@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto ;
+    margin-top: 5%;
+}
+.post-body{
+    background-color: white;
+}
+.post-img img{
+    width: 500px;
+    height: 300px;
+    object-fit: fill;
+}
+.post-header{
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: -15px;
+}
+.css-text{
+    margin-top: 5px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+}
+.css-creator{
+    margin-left: -38px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: grey;
+}
+.post-header-option{
+    margin-left: 288px;
+}
+.post-icon{
+display: flex;
+margin-bottom: 10px;
+}
+.post-icon-mark{
+    margin-left: 310px;
+}
+b{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic; 
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: justify;
+}
+span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.post-body-title{
+    margin-top: 10px;
+}
+.post-body-paragraph{
+    margin-top: 20px;
+}
